@@ -1,4 +1,4 @@
-const coffeeStock = require('./state');
+import coffeeStock from './state.js';
 
 const makeCoffee = (type, miligrams) => {
     if (coffeeStock[type] >= miligrams) {
